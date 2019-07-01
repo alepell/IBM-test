@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <title>IBM TEST</title>
+  </head>
+  <body>
+    <!--TOPO-->
+    <header id="main-header">
+      <img src="assets/images/the-hub-blue.svg" id="sun" alt="thehub" />
+
+      <div id="conteudo">
+        <h1 id="hub">The HUB Merch Portfolio</h1>
+
+        <p id="retangulo"></p>
+
+        <h4><span>IBM</span> Corporate Citizenship</h4>
+        <br />
+      </div>
+    </header>
+    <!--fim topo-->
+    <br />
+    <hr />
+    <br />
+
+    <!-- primeira section de conteudo -->
+    <section id="section1">
+      <h2>Welcome to The HUB Merch Portfolio</h2>
+      <br />
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit maxime
+        expedita iusto soluta voluptate fuga quis laborum cumque deserunt?
+      </p>
+      <br />
+      <p>
+        Lorem ipsum dolor, sit amet consectetur <span>hubteam@br.ibm.com.</span>
+      </p>
+    </section>
+    <!--Fim da primeira section-->
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- segunda section antes da tab-->
+    <section id="section2">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda iste
+        dolor non doloremque mollitia, nobis nulla. Praesentium sit optio earum
+        quo beatae eveniet temporibus. Quia rerum delectus odio aut laboriosam.
+      </p>
+    </section>
+    <!-- fim segunda section -->
+    <br />
+    <!-- Tab links -->
+    <div class="tab">
+      <button class="tablinks" onclick="openProducts(event, 'ibmorg')">
+        IBM.org
+      </button>
+      <button class="tablinks" onclick="openProducts(event, 'product1')">
+        IBM Volunteers
+      </button>
+      <button class="tablinks" onclick="openProducts(event, 'product2')">
+        P-TECH
+      </button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="ibmorg" class="tabcontent pai2">
+      <div class="containerImagem">
+        <div class="slider">
+          <img src="./assets/images/TS-IO-01.jpg" class="ativa" alt="" />
+          <img src="./assets/images/TS-IO-02.jpg" alt="" />
+          <img src="./assets/images/TS-IO-03.jpg" alt="" />
+        </div>
+        <div class="containercopy">
+          <span id="span">TS-IO-01</span>
+          <button id="botao" onclick="copia()">
+            Click to copy asset code!
+          </button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev"
+          />
+          <div id="counter"></div>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider1">
+          <img src="./assets/images/TS-IO-07.jpg" class="ativa1" alt="" />
+          <img src="./assets/images/TS-IO-08.jpg" alt="" />
+          <img src="./assets/images/TS-IO-09.jpg" alt="" />
+          <img src="./assets/images/TS-IO-10.jpg" alt="" />
+          <img src="./assets/images/TS-IO-11.jpg" alt="" />
+        </div>
+        <div class="containercopy">
+          <span id="span1">TS-IO-07</span>
+          <button id="botao1" onclick="copia1()">
+            Click to copy asset code!
+          </button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev1"
+          />
+          <span id="counter1"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next1"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider2">
+          <img src="./assets/images/NB-IO-01.jpg" class="ativa2" alt="" />
+          <img src="./assets/images/NB-IO-02.jpg" alt="" />
+          <img src="./assets/images/NB-IO-03.jpg" alt="" />
+          <img src="./assets/images/NB-IO-04.jpg" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>NB-IO-01</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev2"
+          />
+          <span id="counter2"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next2"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider3">
+          <img src="./assets/images/NB-IO-05.jpg" class="ativa3" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>NB-IO-05</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev3"
+          />
+          <span id="counter3"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next3"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider4">
+          <img src="./assets/images/PP-IO-01.jpg" class="ativa4" alt="" />
+          <img src="./assets/images/PP-IO-02.jpg" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>PP-IO-01</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev4"
+          />
+          <span id="counter4"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next4"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider5">
+          <img src="./assets/images/LG-IO-01.jpg" class="ativa5" alt="" />
+          <img src="./assets/images/LG-IO-02.jpg" alt="" />
+          <img src="./assets/images/LG-IO-03.jpg" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>LG-IO-01</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev5"
+          />
+          <span id="counter5"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next5"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider6">
+          <img src="./assets/images/ZB-IO-01.jpg" class="ativa6" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>ZB-IO-01</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev6"
+          />
+          <span id="counter6"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next6"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider7">
+          <img src="./assets/images/VS-IO-01.jpg" class="ativa7" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>VS-IO-01</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev7"
+          />
+          <span id="counter7"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next7"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider8">
+          <img src="./assets/images/BN-IO-01.jpg" class="ativa8" alt="" />
+          <img src="./assets/images/BN-IO-02.jpg" alt="" />
+          <img src="./assets/images/BN-IO-03.jpg" alt="" />
+          <img src="./assets/images/BN-IO-04.jpg" alt="" />
+          <img src="./assets/images/BN-IO-05.jpg" alt="" />
+          <img src="./assets/images/BN-IO-06.jpg" alt="" />
+          <img src="./assets/images/BN-IO-07.jpg" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>BN-IO-01</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev8"
+          />
+          <span id="counter8"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next8"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider9">
+          <img src="./assets/images/PW-IO-01.jpg" class="ativa9" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>PW-IO-01</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev9"
+          />
+          <span id="counter9"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next9"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider10">
+          <img src="./assets/images/PI-IO-01.jpg" class="ativa10" alt="" />
+          <img src="./assets/images/PI-IO-02.jpg" alt="" />
+          <img src="./assets/images/PI-IO-03.jpg" alt="" />
+          <img src="./assets/images/PI-IO-04.jpg" alt="" />
+          <img src="./assets/images/PI-IO-05.jpg" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>PI-IO-01</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev10"
+          />
+          <span id="counter10"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next10"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider11">
+          <img src="./assets/images/CB-IO-01.jpg" class="ativa11" alt="" />
+          <img src="./assets/images/CB-IO-02.jpg" alt="" />
+          <img src="./assets/images/CB-IO-03.jpg" alt="" />
+          <img src="./assets/images/CB-IO-04.jpg" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>CB-IO-01</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev11"
+          />
+          <span id="counter11"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next11"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider12">
+          <img src="./assets/images/TC-IO-01.jpg" class="ativa12" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>TC-IO-01</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev12"
+          />
+          <span id="counter12"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next12"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+      <!-- duplicata -->
+      <div class="containerImagem">
+        <div class="slider13">
+          <img src="./assets/images/SB-IO-01.jpg" class="ativa13" alt="" />
+          <img src="./assets/images/SB-IO-02.jpg" alt="" />
+          <img src="./assets/images/SB-IO-03.jpg" alt="" />
+          <img src="./assets/images/SB-IO-04.jpg" alt="" />
+          <img src="./assets/images/SB-IO-05.jpg" alt="" />
+        </div>
+        <div class="containercopy">
+          <span>SB-IO-01</span>
+          <button>Click to copy asset code!</button>
+        </div>
+        <br />
+        <!--  ARROW AND COUNTER  -->
+        <div class="flecha">
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126492.svg"
+            class="prev13"
+          />
+          <span id="counter13"></span>
+          <img
+            src="https://image.flaticon.com/icons/svg/126/126490.svg"
+            class="next13"
+          />
+        </div>
+      </div>
+      <div class="containertext">
+        <p class="titulo">Smart for good T-shirt</p>
+        <br />
+        <p class="corpotexto">
+          Avaiable in dark magenta, dark blie and dark teal. Size grid of
+          T-shirts may vary based on the ordering country. Please choose between
+          S, M, L XL and XXL sizes.
+        </p>
+        <br />
+        <div id="estimates">
+          <span>
+            <img
+              src="https://image.flaticon.com/icons/svg/78/78371.svg"
+              width="30"
+              alt=""
+            />
+          </span>
+          <p class="footertexto">Estimates</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="product1" class="tabcontent"></div>
+    <div>
+      <p>Some awesome thing</p>
+    </div>
+    <div id="product2" class="tabcontent"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
