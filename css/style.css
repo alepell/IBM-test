@@ -433,7 +433,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70% !important;
+    width: 60% !important;
     
   }
   .titulo {
@@ -458,8 +458,37 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
+    margin: 0 auto;
     width: 20%;
+  }
+  .titulo {
+    font-size: 1.5rem;
+   
+  }
+  .corpotexto {
+    font-size: 1rem;
+    
+  }
+  .footertexto {
+    font-size: 0.8rem;
+    
+  }
+}
+
+@media (max-width: 1024px) {
+ 
+
+  
+  .containerImagem {
+    margin-top: 1em;
+    margin: auto;
+  }
+  .containertext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    width: 40%;
   }
   .titulo {
     font-size: 1.5rem;
