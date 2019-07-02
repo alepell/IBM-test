@@ -433,10 +433,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0.6em;
-    margin-left: 1em;
-    margin-right: 1em;
-    width: 70%;
+    width: 70% !important;
+    
   }
   .titulo {
     font-size: 1.5rem;
@@ -448,31 +446,10 @@ a {
     font-size: 0.8rem;
   }
 }
-@media (max-width: 768px) {
-  #main-header {
-    margin-top: 4em;
-    flex-direction: column;
-  }
-  #conteudo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  #hub {
-    font-size: 1.5rem;
-  }
-  #section1 {
-    flex-direction: column;
-    margin-top: 1em;
-    justify-content: center;
-    align-items: center;
-  }
+@media (max-width: 1366px) {
+ 
 
-  .flecha {
-    justify-content: center;
-  }
-
+  
   .containerImagem {
     margin-top: 1em;
     margin: auto;
@@ -481,16 +458,19 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     margin-top: 2em;
+    width: 20%;
   }
   .titulo {
     font-size: 1.5rem;
+   
   }
   .corpotexto {
     font-size: 1rem;
+    
   }
   .footertexto {
     font-size: 0.8rem;
+    
   }
 }
